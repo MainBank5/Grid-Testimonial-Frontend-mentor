@@ -15,5 +15,24 @@ body {
 
 .testimonials {
     max-width: 1440px;
-    
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-bottom: 10px;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card_header h3 {
+    font-size: 15px;
 }
