@@ -104,4 +104,27 @@ body {
     font-size: 11px;
 }
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 768px) {
+    .testimonials {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .card:nth-of-type(1) {
+        grid-column: 1;
+    }
+    
+    .card:nth-of-type(4) {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .card:nth-of-type(5) {
+        grid-column: 1;
+        grid-row: 5;
+    }
+}
