@@ -19,6 +19,8 @@ body {
     padding: 20px;
 
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 
 .card {
@@ -81,6 +83,20 @@ body {
 .card-bg-black-blue {
     background-color: hsl(219, 29%, 14%);
     color: #fff;
+}
+
+.card:nth-of-type(1) {
+    grid-column: 1 / 3;
+}
+
+.card:nth-of-type(4) {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+.card:nth-of-type(5) {
+    grid-column: 4;
+    grid-row: 1 / 3;
 }
 
 .attribution {
